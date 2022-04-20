@@ -28,7 +28,7 @@
             <TextField fx:id="messageField" onKeyPressed="#sendMessage" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <TextArea fx:id="chatArea" editable="false" prefHeight="200.0" prefWidth="200.0" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <TextArea fx:id="userArea" editable="false" maxWidth="170.0" prefHeight="200.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
-            <Label id="titleLabel" text="Welcome to JavaChat!" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+            <Label id="titleLabel" text="Не чат а черт пойми что!" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
             <Label fx:id="usernameLabel" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <GridPane.margin>
                   <Insets bottom="40.0" />
