@@ -9,10 +9,10 @@ import data.model.Device;
 import utils.Constants;
 import utils.Mode;
 
-public class Chat implements MessageListener {
+public class Chat2 implements MessageListener {
 
     public static void main(String[] args) throws InterruptedException {
-        new Chat();
+        new Chat2();
     }
 
     private Server server;
@@ -20,7 +20,7 @@ public class Chat implements MessageListener {
 
     private Mode mode;
 
-    private Chat() throws InterruptedException {
+    private Chat2() throws InterruptedException {
         java.util.Scanner sc = new java.util.Scanner(System.in);
         System.out.println("Please choose mode [SERVER,CLIENT,BOTH]");
         String input = sc.nextLine().toUpperCase();
